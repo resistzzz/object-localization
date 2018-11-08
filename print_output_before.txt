@@ -1,0 +1,702 @@
+Epoch 0/99
+----------
+train Loss: 1.0034, Loss_classify: 1.6429, Loss_bbox: 0.3640
+train Acc: 0.0288, Acc_classify: 0.2075, Acc_bbox: 0.1150
+val Loss: 0.8231, Loss_classify: 1.6052, Loss_bbox: 0.0409
+val Acc: 0.0800, Acc_classify: 0.2100, Acc_bbox: 0.3000
+Now the lr is 0.01
+Epoch 1/99
+----------
+train Loss: 0.8260, Loss_classify: 1.6107, Loss_bbox: 0.0413
+train Acc: 0.0563, Acc_classify: 0.2025, Acc_bbox: 0.2612
+val Loss: 0.8179, Loss_classify: 1.6005, Loss_bbox: 0.0353
+val Acc: 0.0800, Acc_classify: 0.2400, Acc_bbox: 0.3300
+Now the lr is 0.01
+Epoch 2/99
+----------
+train Loss: 0.8229, Loss_classify: 1.6063, Loss_bbox: 0.0396
+train Acc: 0.0663, Acc_classify: 0.2087, Acc_bbox: 0.2662
+val Loss: 0.8150, Loss_classify: 1.5953, Loss_bbox: 0.0347
+val Acc: 0.1100, Acc_classify: 0.3000, Acc_bbox: 0.3000
+Now the lr is 0.01
+Epoch 3/99
+----------
+train Loss: 0.8159, Loss_classify: 1.5947, Loss_bbox: 0.0371
+train Acc: 0.0737, Acc_classify: 0.2625, Acc_bbox: 0.2775
+val Loss: 0.8117, Loss_classify: 1.5888, Loss_bbox: 0.0346
+val Acc: 0.1300, Acc_classify: 0.3100, Acc_bbox: 0.3300
+Now the lr is 0.01
+Epoch 4/99
+----------
+train Loss: 0.8154, Loss_classify: 1.5928, Loss_bbox: 0.0380
+train Acc: 0.0813, Acc_classify: 0.2737, Acc_bbox: 0.2787
+val Loss: 0.8061, Loss_classify: 1.5786, Loss_bbox: 0.0335
+val Acc: 0.1200, Acc_classify: 0.3200, Acc_bbox: 0.3200
+Now the lr is 0.01
+Epoch 5/99
+----------
+train Loss: 0.8092, Loss_classify: 1.5814, Loss_bbox: 0.0371
+train Acc: 0.0688, Acc_classify: 0.2925, Acc_bbox: 0.2612
+val Loss: 0.7998, Loss_classify: 1.5662, Loss_bbox: 0.0335
+val Acc: 0.1000, Acc_classify: 0.3700, Acc_bbox: 0.3100
+Now the lr is 0.01
+Epoch 6/99
+----------
+train Loss: 0.8038, Loss_classify: 1.5715, Loss_bbox: 0.0362
+train Acc: 0.0800, Acc_classify: 0.3250, Acc_bbox: 0.2800
+val Loss: 0.7953, Loss_classify: 1.5573, Loss_bbox: 0.0332
+val Acc: 0.0700, Acc_classify: 0.3200, Acc_bbox: 0.3200
+Now the lr is 0.01
+Epoch 7/99
+----------
+train Loss: 0.7988, Loss_classify: 1.5596, Loss_bbox: 0.0380
+train Acc: 0.0762, Acc_classify: 0.3075, Acc_bbox: 0.2600
+val Loss: 0.7905, Loss_classify: 1.5473, Loss_bbox: 0.0336
+val Acc: 0.1000, Acc_classify: 0.3000, Acc_bbox: 0.4000
+Now the lr is 0.01
+Epoch 8/99
+----------
+train Loss: 0.7923, Loss_classify: 1.5483, Loss_bbox: 0.0364
+train Acc: 0.0925, Acc_classify: 0.3212, Acc_bbox: 0.2575
+val Loss: 0.7896, Loss_classify: 1.5458, Loss_bbox: 0.0334
+val Acc: 0.0700, Acc_classify: 0.3300, Acc_bbox: 0.3900
+Now the lr is 0.01
+Epoch 9/99
+----------
+train Loss: 0.7832, Loss_classify: 1.5301, Loss_bbox: 0.0363
+train Acc: 0.1113, Acc_classify: 0.3538, Acc_bbox: 0.2938
+val Loss: 0.7658, Loss_classify: 1.4977, Loss_bbox: 0.0338
+val Acc: 0.1000, Acc_classify: 0.4000, Acc_bbox: 0.3300
+Now the lr is 0.01
+Epoch 10/99
+----------
+train Loss: 0.7833, Loss_classify: 1.5295, Loss_bbox: 0.0370
+train Acc: 0.0788, Acc_classify: 0.3175, Acc_bbox: 0.2625
+val Loss: 0.7624, Loss_classify: 1.4902, Loss_bbox: 0.0345
+val Acc: 0.1300, Acc_classify: 0.4100, Acc_bbox: 0.3700
+Now the lr is 0.01
+Epoch 11/99
+----------
+train Loss: 0.7608, Loss_classify: 1.4845, Loss_bbox: 0.0371
+train Acc: 0.0938, Acc_classify: 0.3787, Acc_bbox: 0.2712
+val Loss: 0.7487, Loss_classify: 1.4624, Loss_bbox: 0.0349
+val Acc: 0.1300, Acc_classify: 0.4100, Acc_bbox: 0.3600
+Now the lr is 0.01
+Epoch 12/99
+----------
+train Loss: 0.7693, Loss_classify: 1.5001, Loss_bbox: 0.0384
+train Acc: 0.0975, Acc_classify: 0.3613, Acc_bbox: 0.2687
+val Loss: 0.7509, Loss_classify: 1.4661, Loss_bbox: 0.0357
+val Acc: 0.1000, Acc_classify: 0.3600, Acc_bbox: 0.3400
+Now the lr is 0.01
+Epoch 13/99
+----------
+train Loss: 0.7560, Loss_classify: 1.4733, Loss_bbox: 0.0387
+train Acc: 0.1037, Acc_classify: 0.3962, Acc_bbox: 0.2550
+val Loss: 0.7292, Loss_classify: 1.4222, Loss_bbox: 0.0361
+val Acc: 0.1200, Acc_classify: 0.3800, Acc_bbox: 0.3600
+Now the lr is 0.01
+Epoch 14/99
+----------
+train Loss: 0.7583, Loss_classify: 1.4776, Loss_bbox: 0.0390
+train Acc: 0.1025, Acc_classify: 0.3650, Acc_bbox: 0.2612
+val Loss: 0.7721, Loss_classify: 1.5103, Loss_bbox: 0.0339
+val Acc: 0.1200, Acc_classify: 0.3300, Acc_bbox: 0.3700
+Now the lr is 0.01
+Epoch 15/99
+----------
+train Loss: 0.7533, Loss_classify: 1.4693, Loss_bbox: 0.0372
+train Acc: 0.1138, Acc_classify: 0.4000, Acc_bbox: 0.2750
+val Loss: 0.7442, Loss_classify: 1.4529, Loss_bbox: 0.0355
+val Acc: 0.1200, Acc_classify: 0.3700, Acc_bbox: 0.3100
+Now the lr is 0.01
+Epoch 16/99
+----------
+train Loss: 0.7314, Loss_classify: 1.4248, Loss_bbox: 0.0379
+train Acc: 0.1062, Acc_classify: 0.4188, Acc_bbox: 0.2662
+val Loss: 0.7633, Loss_classify: 1.4938, Loss_bbox: 0.0328
+val Acc: 0.1000, Acc_classify: 0.3100, Acc_bbox: 0.3700
+Now the lr is 0.01
+Epoch 17/99
+----------
+train Loss: 0.7341, Loss_classify: 1.4306, Loss_bbox: 0.0377
+train Acc: 0.1062, Acc_classify: 0.4000, Acc_bbox: 0.2550
+val Loss: 0.7190, Loss_classify: 1.4024, Loss_bbox: 0.0356
+val Acc: 0.0900, Acc_classify: 0.4000, Acc_bbox: 0.3100
+Now the lr is 0.01
+Epoch 18/99
+----------
+train Loss: 0.7396, Loss_classify: 1.4400, Loss_bbox: 0.0392
+train Acc: 0.0900, Acc_classify: 0.3950, Acc_bbox: 0.2450
+val Loss: 0.7498, Loss_classify: 1.4649, Loss_bbox: 0.0347
+val Acc: 0.1100, Acc_classify: 0.3300, Acc_bbox: 0.3100
+Now the lr is 0.01
+Epoch 19/99
+----------
+train Loss: 0.7426, Loss_classify: 1.4472, Loss_bbox: 0.0380
+train Acc: 0.0912, Acc_classify: 0.3787, Acc_bbox: 0.2475
+val Loss: 0.7303, Loss_classify: 1.4255, Loss_bbox: 0.0351
+val Acc: 0.1200, Acc_classify: 0.3600, Acc_bbox: 0.3200
+Now the lr is 0.01
+Epoch 20/99
+----------
+train Loss: 0.7465, Loss_classify: 1.4556, Loss_bbox: 0.0373
+train Acc: 0.1087, Acc_classify: 0.3862, Acc_bbox: 0.2562
+val Loss: 0.7094, Loss_classify: 1.3829, Loss_bbox: 0.0360
+val Acc: 0.1000, Acc_classify: 0.4400, Acc_bbox: 0.2800
+Now the lr is 0.01
+Epoch 21/99
+----------
+train Loss: 0.7158, Loss_classify: 1.3952, Loss_bbox: 0.0364
+train Acc: 0.1350, Acc_classify: 0.4188, Acc_bbox: 0.3113
+val Loss: 0.7005, Loss_classify: 1.3657, Loss_bbox: 0.0354
+val Acc: 0.1200, Acc_classify: 0.4300, Acc_bbox: 0.2500
+Now the lr is 0.01
+Epoch 22/99
+----------
+train Loss: 0.7072, Loss_classify: 1.3761, Loss_bbox: 0.0383
+train Acc: 0.0988, Acc_classify: 0.4163, Acc_bbox: 0.2387
+val Loss: 0.7114, Loss_classify: 1.3885, Loss_bbox: 0.0344
+val Acc: 0.1200, Acc_classify: 0.3900, Acc_bbox: 0.2900
+Now the lr is 0.01
+Epoch 23/99
+----------
+train Loss: 0.7105, Loss_classify: 1.3836, Loss_bbox: 0.0374
+train Acc: 0.1237, Acc_classify: 0.4350, Acc_bbox: 0.2750
+val Loss: 0.7046, Loss_classify: 1.3764, Loss_bbox: 0.0328
+val Acc: 0.1600, Acc_classify: 0.4700, Acc_bbox: 0.3800
+Now the lr is 0.01
+Epoch 24/99
+----------
+train Loss: 0.6978, Loss_classify: 1.3582, Loss_bbox: 0.0374
+train Acc: 0.1125, Acc_classify: 0.4387, Acc_bbox: 0.2525
+val Loss: 0.6977, Loss_classify: 1.3598, Loss_bbox: 0.0355
+val Acc: 0.1100, Acc_classify: 0.4500, Acc_bbox: 0.3200
+Now the lr is 0.01
+Epoch 25/99
+----------
+train Loss: 0.7162, Loss_classify: 1.3936, Loss_bbox: 0.0387
+train Acc: 0.1200, Acc_classify: 0.4400, Acc_bbox: 0.2575
+val Loss: 0.7029, Loss_classify: 1.3692, Loss_bbox: 0.0366
+val Acc: 0.0800, Acc_classify: 0.3900, Acc_bbox: 0.2000
+Now the lr is 0.01
+Epoch 26/99
+----------
+train Loss: 0.6897, Loss_classify: 1.3428, Loss_bbox: 0.0367
+train Acc: 0.1237, Acc_classify: 0.4425, Acc_bbox: 0.2838
+val Loss: 0.6658, Loss_classify: 1.2990, Loss_bbox: 0.0326
+val Acc: 0.1300, Acc_classify: 0.4000, Acc_bbox: 0.3100
+Now the lr is 0.01
+Epoch 27/99
+----------
+train Loss: 0.6739, Loss_classify: 1.3093, Loss_bbox: 0.0386
+train Acc: 0.1050, Acc_classify: 0.4437, Acc_bbox: 0.2662
+val Loss: 0.6616, Loss_classify: 1.2899, Loss_bbox: 0.0334
+val Acc: 0.1200, Acc_classify: 0.4700, Acc_bbox: 0.3100
+Now the lr is 0.01
+Epoch 28/99
+----------
+train Loss: 0.6775, Loss_classify: 1.3181, Loss_bbox: 0.0370
+train Acc: 0.1288, Acc_classify: 0.4725, Acc_bbox: 0.2512
+val Loss: 0.7106, Loss_classify: 1.3893, Loss_bbox: 0.0319
+val Acc: 0.1900, Acc_classify: 0.4300, Acc_bbox: 0.4300
+Now the lr is 0.01
+Epoch 29/99
+----------
+train Loss: 0.6925, Loss_classify: 1.3470, Loss_bbox: 0.0380
+train Acc: 0.1425, Acc_classify: 0.4338, Acc_bbox: 0.2913
+val Loss: 0.6643, Loss_classify: 1.2944, Loss_bbox: 0.0342
+val Acc: 0.0900, Acc_classify: 0.4700, Acc_bbox: 0.2500
+Now the lr is 0.01
+Epoch 30/99
+----------
+train Loss: 0.6516, Loss_classify: 1.2654, Loss_bbox: 0.0378
+train Acc: 0.1350, Acc_classify: 0.4875, Acc_bbox: 0.2700
+val Loss: 0.6640, Loss_classify: 1.2933, Loss_bbox: 0.0346
+val Acc: 0.1200, Acc_classify: 0.4200, Acc_bbox: 0.2500
+Now the lr is 0.009000000000000001
+Epoch 31/99
+----------
+train Loss: 0.7058, Loss_classify: 1.3736, Loss_bbox: 0.0380
+train Acc: 0.1087, Acc_classify: 0.4325, Acc_bbox: 0.2250
+val Loss: 0.7264, Loss_classify: 1.4156, Loss_bbox: 0.0372
+val Acc: 0.1100, Acc_classify: 0.4400, Acc_bbox: 0.2000
+Now the lr is 0.009000000000000001
+Epoch 32/99
+----------
+train Loss: 0.6577, Loss_classify: 1.2778, Loss_bbox: 0.0376
+train Acc: 0.1375, Acc_classify: 0.4938, Acc_bbox: 0.2850
+val Loss: 0.7282, Loss_classify: 1.4233, Loss_bbox: 0.0331
+val Acc: 0.1800, Acc_classify: 0.4300, Acc_bbox: 0.3500
+Now the lr is 0.009000000000000001
+Epoch 33/99
+----------
+train Loss: 0.6533, Loss_classify: 1.2698, Loss_bbox: 0.0369
+train Acc: 0.1363, Acc_classify: 0.4938, Acc_bbox: 0.2587
+val Loss: 0.6442, Loss_classify: 1.2547, Loss_bbox: 0.0337
+val Acc: 0.1000, Acc_classify: 0.4200, Acc_bbox: 0.3100
+Now the lr is 0.009000000000000001
+Epoch 34/99
+----------
+train Loss: 0.6652, Loss_classify: 1.2927, Loss_bbox: 0.0378
+train Acc: 0.1300, Acc_classify: 0.4612, Acc_bbox: 0.2737
+val Loss: 0.6702, Loss_classify: 1.3045, Loss_bbox: 0.0358
+val Acc: 0.0900, Acc_classify: 0.3800, Acc_bbox: 0.2300
+Now the lr is 0.009000000000000001
+Epoch 35/99
+----------
+train Loss: 0.6529, Loss_classify: 1.2696, Loss_bbox: 0.0363
+train Acc: 0.1487, Acc_classify: 0.4938, Acc_bbox: 0.2775
+val Loss: 0.6532, Loss_classify: 1.2723, Loss_bbox: 0.0340
+val Acc: 0.1700, Acc_classify: 0.4900, Acc_bbox: 0.3200
+Now the lr is 0.009000000000000001
+Epoch 36/99
+----------
+train Loss: 0.6280, Loss_classify: 1.2193, Loss_bbox: 0.0367
+train Acc: 0.1450, Acc_classify: 0.5125, Acc_bbox: 0.2737
+val Loss: 0.6546, Loss_classify: 1.2742, Loss_bbox: 0.0350
+val Acc: 0.1400, Acc_classify: 0.4600, Acc_bbox: 0.3300
+Now the lr is 0.009000000000000001
+Epoch 37/99
+----------
+train Loss: 0.6502, Loss_classify: 1.2631, Loss_bbox: 0.0374
+train Acc: 0.1437, Acc_classify: 0.4863, Acc_bbox: 0.2600
+val Loss: 0.6673, Loss_classify: 1.3007, Loss_bbox: 0.0339
+val Acc: 0.1600, Acc_classify: 0.4700, Acc_bbox: 0.3600
+Now the lr is 0.009000000000000001
+Epoch 38/99
+----------
+train Loss: 0.6447, Loss_classify: 1.2520, Loss_bbox: 0.0373
+train Acc: 0.1437, Acc_classify: 0.4975, Acc_bbox: 0.2675
+val Loss: 0.6259, Loss_classify: 1.2174, Loss_bbox: 0.0343
+val Acc: 0.1200, Acc_classify: 0.4500, Acc_bbox: 0.2800
+Now the lr is 0.009000000000000001
+Epoch 39/99
+----------
+train Loss: 0.6020, Loss_classify: 1.1673, Loss_bbox: 0.0367
+train Acc: 0.1650, Acc_classify: 0.5513, Acc_bbox: 0.2988
+val Loss: 0.6714, Loss_classify: 1.3083, Loss_bbox: 0.0344
+val Acc: 0.1400, Acc_classify: 0.4500, Acc_bbox: 0.2800
+Now the lr is 0.009000000000000001
+Epoch 40/99
+----------
+train Loss: 0.6017, Loss_classify: 1.1662, Loss_bbox: 0.0372
+train Acc: 0.1575, Acc_classify: 0.5487, Acc_bbox: 0.2775
+val Loss: 0.6270, Loss_classify: 1.2210, Loss_bbox: 0.0331
+val Acc: 0.1400, Acc_classify: 0.4800, Acc_bbox: 0.3400
+Now the lr is 0.009000000000000001
+Epoch 41/99
+----------
+train Loss: 0.6724, Loss_classify: 1.3075, Loss_bbox: 0.0373
+train Acc: 0.1412, Acc_classify: 0.4975, Acc_bbox: 0.2400
+val Loss: 0.6991, Loss_classify: 1.3644, Loss_bbox: 0.0338
+val Acc: 0.1000, Acc_classify: 0.3900, Acc_bbox: 0.3000
+Now the lr is 0.009000000000000001
+Epoch 42/99
+----------
+train Loss: 0.6375, Loss_classify: 1.2371, Loss_bbox: 0.0379
+train Acc: 0.1363, Acc_classify: 0.5125, Acc_bbox: 0.2725
+val Loss: 0.6353, Loss_classify: 1.2343, Loss_bbox: 0.0363
+val Acc: 0.0900, Acc_classify: 0.4500, Acc_bbox: 0.2300
+Now the lr is 0.009000000000000001
+Epoch 43/99
+----------
+train Loss: 0.6110, Loss_classify: 1.1859, Loss_bbox: 0.0361
+train Acc: 0.1388, Acc_classify: 0.5162, Acc_bbox: 0.2838
+val Loss: 0.6237, Loss_classify: 1.2125, Loss_bbox: 0.0350
+val Acc: 0.1100, Acc_classify: 0.5000, Acc_bbox: 0.3000
+Now the lr is 0.009000000000000001
+Epoch 44/99
+----------
+train Loss: 0.6253, Loss_classify: 1.2129, Loss_bbox: 0.0377
+train Acc: 0.1400, Acc_classify: 0.5188, Acc_bbox: 0.2775
+val Loss: 0.6778, Loss_classify: 1.3202, Loss_bbox: 0.0354
+val Acc: 0.1500, Acc_classify: 0.4600, Acc_bbox: 0.3200
+Now the lr is 0.009000000000000001
+Epoch 45/99
+----------
+train Loss: 0.5797, Loss_classify: 1.1215, Loss_bbox: 0.0380
+train Acc: 0.1550, Acc_classify: 0.5563, Acc_bbox: 0.2812
+val Loss: 0.6509, Loss_classify: 1.2681, Loss_bbox: 0.0337
+val Acc: 0.1100, Acc_classify: 0.4500, Acc_bbox: 0.3300
+Now the lr is 0.009000000000000001
+Epoch 46/99
+----------
+train Loss: 0.5738, Loss_classify: 1.1108, Loss_bbox: 0.0369
+train Acc: 0.1600, Acc_classify: 0.5425, Acc_bbox: 0.2850
+val Loss: 0.6376, Loss_classify: 1.2401, Loss_bbox: 0.0351
+val Acc: 0.1400, Acc_classify: 0.4600, Acc_bbox: 0.3000
+Now the lr is 0.009000000000000001
+Epoch 47/99
+----------
+train Loss: 0.6005, Loss_classify: 1.1634, Loss_bbox: 0.0377
+train Acc: 0.1425, Acc_classify: 0.5500, Acc_bbox: 0.2587
+val Loss: 0.7730, Loss_classify: 1.5068, Loss_bbox: 0.0392
+val Acc: 0.0700, Acc_classify: 0.3700, Acc_bbox: 0.2200
+Now the lr is 0.009000000000000001
+Epoch 48/99
+----------
+train Loss: 0.6373, Loss_classify: 1.2363, Loss_bbox: 0.0384
+train Acc: 0.1450, Acc_classify: 0.5138, Acc_bbox: 0.2637
+val Loss: 0.6568, Loss_classify: 1.2784, Loss_bbox: 0.0351
+val Acc: 0.0700, Acc_classify: 0.4100, Acc_bbox: 0.2400
+Now the lr is 0.009000000000000001
+Epoch 49/99
+----------
+train Loss: 0.5982, Loss_classify: 1.1605, Loss_bbox: 0.0359
+train Acc: 0.1650, Acc_classify: 0.5387, Acc_bbox: 0.3050
+val Loss: 0.5987, Loss_classify: 1.1613, Loss_bbox: 0.0361
+val Acc: 0.1100, Acc_classify: 0.5000, Acc_bbox: 0.2000
+Now the lr is 0.009000000000000001
+Epoch 50/99
+----------
+train Loss: 0.5876, Loss_classify: 1.1392, Loss_bbox: 0.0359
+train Acc: 0.1562, Acc_classify: 0.5550, Acc_bbox: 0.2687
+val Loss: 0.6595, Loss_classify: 1.2833, Loss_bbox: 0.0356
+val Acc: 0.0700, Acc_classify: 0.4600, Acc_bbox: 0.1900
+Now the lr is 0.009000000000000001
+Epoch 51/99
+----------
+train Loss: 0.5508, Loss_classify: 1.0643, Loss_bbox: 0.0372
+train Acc: 0.1650, Acc_classify: 0.5825, Acc_bbox: 0.2625
+val Loss: 0.5957, Loss_classify: 1.1552, Loss_bbox: 0.0361
+val Acc: 0.1400, Acc_classify: 0.5100, Acc_bbox: 0.2600
+Now the lr is 0.009000000000000001
+Epoch 52/99
+----------
+train Loss: 0.6043, Loss_classify: 1.1709, Loss_bbox: 0.0377
+train Acc: 0.1500, Acc_classify: 0.5400, Acc_bbox: 0.2662
+val Loss: 0.5883, Loss_classify: 1.1409, Loss_bbox: 0.0358
+val Acc: 0.1000, Acc_classify: 0.5500, Acc_bbox: 0.2200
+Now the lr is 0.009000000000000001
+Epoch 53/99
+----------
+train Loss: 0.5938, Loss_classify: 1.1494, Loss_bbox: 0.0381
+train Acc: 0.1462, Acc_classify: 0.5425, Acc_bbox: 0.2512
+val Loss: 0.6425, Loss_classify: 1.2517, Loss_bbox: 0.0333
+val Acc: 0.1000, Acc_classify: 0.4500, Acc_bbox: 0.3200
+Now the lr is 0.009000000000000001
+Epoch 54/99
+----------
+train Loss: 0.5586, Loss_classify: 1.0825, Loss_bbox: 0.0347
+train Acc: 0.1675, Acc_classify: 0.5837, Acc_bbox: 0.2800
+val Loss: 0.6076, Loss_classify: 1.1781, Loss_bbox: 0.0370
+val Acc: 0.1300, Acc_classify: 0.5400, Acc_bbox: 0.2700
+Now the lr is 0.009000000000000001
+Epoch 55/99
+----------
+train Loss: 0.5724, Loss_classify: 1.1089, Loss_bbox: 0.0359
+train Acc: 0.1600, Acc_classify: 0.5625, Acc_bbox: 0.2725
+val Loss: 0.6946, Loss_classify: 1.3556, Loss_bbox: 0.0336
+val Acc: 0.1500, Acc_classify: 0.4400, Acc_bbox: 0.2900
+Now the lr is 0.009000000000000001
+Epoch 56/99
+----------
+train Loss: 0.5599, Loss_classify: 1.0834, Loss_bbox: 0.0365
+train Acc: 0.1737, Acc_classify: 0.5775, Acc_bbox: 0.2812
+val Loss: 0.6340, Loss_classify: 1.2304, Loss_bbox: 0.0377
+val Acc: 0.1200, Acc_classify: 0.5100, Acc_bbox: 0.2500
+Now the lr is 0.009000000000000001
+Epoch 57/99
+----------
+train Loss: 0.5709, Loss_classify: 1.1050, Loss_bbox: 0.0367
+train Acc: 0.1625, Acc_classify: 0.5750, Acc_bbox: 0.2700
+val Loss: 0.5974, Loss_classify: 1.1584, Loss_bbox: 0.0363
+val Acc: 0.1100, Acc_classify: 0.5500, Acc_bbox: 0.2600
+Now the lr is 0.009000000000000001
+Epoch 58/99
+----------
+train Loss: 0.5585, Loss_classify: 1.0813, Loss_bbox: 0.0356
+train Acc: 0.1750, Acc_classify: 0.5637, Acc_bbox: 0.2988
+val Loss: 0.6108, Loss_classify: 1.1866, Loss_bbox: 0.0349
+val Acc: 0.1300, Acc_classify: 0.4700, Acc_bbox: 0.2800
+Now the lr is 0.009000000000000001
+Epoch 59/99
+----------
+train Loss: 0.5243, Loss_classify: 1.0123, Loss_bbox: 0.0362
+train Acc: 0.1900, Acc_classify: 0.6112, Acc_bbox: 0.2825
+val Loss: 0.6652, Loss_classify: 1.2945, Loss_bbox: 0.0360
+val Acc: 0.0800, Acc_classify: 0.4600, Acc_bbox: 0.2200
+Now the lr is 0.009000000000000001
+Epoch 60/99
+----------
+train Loss: 0.5451, Loss_classify: 1.0551, Loss_bbox: 0.0351
+train Acc: 0.1688, Acc_classify: 0.5925, Acc_bbox: 0.2787
+val Loss: 0.5949, Loss_classify: 1.1519, Loss_bbox: 0.0378
+val Acc: 0.1100, Acc_classify: 0.5200, Acc_bbox: 0.2600
+Now the lr is 0.008100000000000001
+Epoch 61/99
+----------
+train Loss: 0.5155, Loss_classify: 0.9943, Loss_bbox: 0.0366
+train Acc: 0.1888, Acc_classify: 0.6362, Acc_bbox: 0.2863
+val Loss: 0.5775, Loss_classify: 1.1181, Loss_bbox: 0.0369
+val Acc: 0.1600, Acc_classify: 0.5600, Acc_bbox: 0.2900
+Now the lr is 0.008100000000000001
+Epoch 62/99
+----------
+train Loss: 0.5279, Loss_classify: 1.0198, Loss_bbox: 0.0360
+train Acc: 0.1800, Acc_classify: 0.6100, Acc_bbox: 0.2850
+val Loss: 0.7172, Loss_classify: 1.3960, Loss_bbox: 0.0383
+val Acc: 0.1000, Acc_classify: 0.4200, Acc_bbox: 0.2100
+Now the lr is 0.008100000000000001
+Epoch 63/99
+----------
+train Loss: 0.5722, Loss_classify: 1.1085, Loss_bbox: 0.0360
+train Acc: 0.1525, Acc_classify: 0.5687, Acc_bbox: 0.2662
+val Loss: 0.5757, Loss_classify: 1.1155, Loss_bbox: 0.0359
+val Acc: 0.1400, Acc_classify: 0.5700, Acc_bbox: 0.2200
+Now the lr is 0.008100000000000001
+Epoch 64/99
+----------
+train Loss: 0.5061, Loss_classify: 0.9774, Loss_bbox: 0.0349
+train Acc: 0.1988, Acc_classify: 0.6275, Acc_bbox: 0.3050
+val Loss: 0.5849, Loss_classify: 1.1338, Loss_bbox: 0.0359
+val Acc: 0.1300, Acc_classify: 0.5600, Acc_bbox: 0.2500
+Now the lr is 0.008100000000000001
+Epoch 65/99
+----------
+train Loss: 0.5164, Loss_classify: 0.9966, Loss_bbox: 0.0362
+train Acc: 0.1625, Acc_classify: 0.6162, Acc_bbox: 0.2550
+val Loss: 0.6231, Loss_classify: 1.2114, Loss_bbox: 0.0348
+val Acc: 0.1500, Acc_classify: 0.5100, Acc_bbox: 0.2800
+Now the lr is 0.008100000000000001
+Epoch 66/99
+----------
+train Loss: 0.5305, Loss_classify: 1.0244, Loss_bbox: 0.0365
+train Acc: 0.1550, Acc_classify: 0.5900, Acc_bbox: 0.2562
+val Loss: 0.5691, Loss_classify: 1.1023, Loss_bbox: 0.0359
+val Acc: 0.1300, Acc_classify: 0.5700, Acc_bbox: 0.2600
+Now the lr is 0.008100000000000001
+Epoch 67/99
+----------
+train Loss: 0.5227, Loss_classify: 1.0101, Loss_bbox: 0.0353
+train Acc: 0.1638, Acc_classify: 0.6062, Acc_bbox: 0.2787
+val Loss: 0.5921, Loss_classify: 1.1475, Loss_bbox: 0.0367
+val Acc: 0.1800, Acc_classify: 0.5600, Acc_bbox: 0.2600
+Now the lr is 0.008100000000000001
+Epoch 68/99
+----------
+train Loss: 0.4782, Loss_classify: 0.9219, Loss_bbox: 0.0346
+train Acc: 0.2225, Acc_classify: 0.6650, Acc_bbox: 0.3125
+val Loss: 0.6495, Loss_classify: 1.2646, Loss_bbox: 0.0344
+val Acc: 0.1700, Acc_classify: 0.4800, Acc_bbox: 0.3000
+Now the lr is 0.008100000000000001
+Epoch 69/99
+----------
+train Loss: 0.4739, Loss_classify: 0.9113, Loss_bbox: 0.0365
+train Acc: 0.1938, Acc_classify: 0.6550, Acc_bbox: 0.2687
+val Loss: 0.5634, Loss_classify: 1.0895, Loss_bbox: 0.0374
+val Acc: 0.1300, Acc_classify: 0.5800, Acc_bbox: 0.2600
+Now the lr is 0.008100000000000001
+Epoch 70/99
+----------
+train Loss: 0.5036, Loss_classify: 0.9701, Loss_bbox: 0.0371
+train Acc: 0.1550, Acc_classify: 0.6188, Acc_bbox: 0.2637
+val Loss: 0.5635, Loss_classify: 1.0906, Loss_bbox: 0.0363
+val Acc: 0.2000, Acc_classify: 0.6000, Acc_bbox: 0.3300
+Now the lr is 0.008100000000000001
+Epoch 71/99
+----------
+train Loss: 0.4709, Loss_classify: 0.9051, Loss_bbox: 0.0366
+train Acc: 0.1950, Acc_classify: 0.6675, Acc_bbox: 0.2762
+val Loss: 0.5576, Loss_classify: 1.0801, Loss_bbox: 0.0352
+val Acc: 0.1400, Acc_classify: 0.6100, Acc_bbox: 0.2700
+Now the lr is 0.008100000000000001
+Epoch 72/99
+----------
+train Loss: 0.5199, Loss_classify: 1.0048, Loss_bbox: 0.0349
+train Acc: 0.1837, Acc_classify: 0.6212, Acc_bbox: 0.2725
+val Loss: 0.5598, Loss_classify: 1.0840, Loss_bbox: 0.0355
+val Acc: 0.1800, Acc_classify: 0.5700, Acc_bbox: 0.2900
+Now the lr is 0.008100000000000001
+Epoch 73/99
+----------
+train Loss: 0.5091, Loss_classify: 0.9808, Loss_bbox: 0.0375
+train Acc: 0.1750, Acc_classify: 0.6312, Acc_bbox: 0.2612
+val Loss: 0.7340, Loss_classify: 1.4330, Loss_bbox: 0.0349
+val Acc: 0.1300, Acc_classify: 0.4100, Acc_bbox: 0.2700
+Now the lr is 0.008100000000000001
+Epoch 74/99
+----------
+train Loss: 0.4723, Loss_classify: 0.9108, Loss_bbox: 0.0337
+train Acc: 0.2075, Acc_classify: 0.6713, Acc_bbox: 0.3075
+val Loss: 0.6026, Loss_classify: 1.1682, Loss_bbox: 0.0369
+val Acc: 0.1200, Acc_classify: 0.5300, Acc_bbox: 0.2400
+Now the lr is 0.008100000000000001
+Epoch 75/99
+----------
+train Loss: 0.4879, Loss_classify: 0.9403, Loss_bbox: 0.0355
+train Acc: 0.1963, Acc_classify: 0.6438, Acc_bbox: 0.2800
+val Loss: 0.5669, Loss_classify: 1.0978, Loss_bbox: 0.0359
+val Acc: 0.1800, Acc_classify: 0.5800, Acc_bbox: 0.3300
+Now the lr is 0.008100000000000001
+Epoch 76/99
+----------
+train Loss: 0.4424, Loss_classify: 0.8490, Loss_bbox: 0.0357
+train Acc: 0.2238, Acc_classify: 0.6937, Acc_bbox: 0.3050
+val Loss: 0.6184, Loss_classify: 1.2029, Loss_bbox: 0.0339
+val Acc: 0.1700, Acc_classify: 0.5400, Acc_bbox: 0.2800
+Now the lr is 0.008100000000000001
+Epoch 77/99
+----------
+train Loss: 0.4677, Loss_classify: 0.9004, Loss_bbox: 0.0350
+train Acc: 0.1913, Acc_classify: 0.6637, Acc_bbox: 0.2863
+val Loss: 0.5988, Loss_classify: 1.1631, Loss_bbox: 0.0344
+val Acc: 0.1500, Acc_classify: 0.5400, Acc_bbox: 0.2800
+Now the lr is 0.008100000000000001
+Epoch 78/99
+----------
+train Loss: 0.4772, Loss_classify: 0.9191, Loss_bbox: 0.0352
+train Acc: 0.2013, Acc_classify: 0.6475, Acc_bbox: 0.2975
+val Loss: 0.6391, Loss_classify: 1.2424, Loss_bbox: 0.0358
+val Acc: 0.1000, Acc_classify: 0.5100, Acc_bbox: 0.2500
+Now the lr is 0.008100000000000001
+Epoch 79/99
+----------
+train Loss: 0.4600, Loss_classify: 0.8847, Loss_bbox: 0.0353
+train Acc: 0.1950, Acc_classify: 0.6625, Acc_bbox: 0.3013
+val Loss: 0.5417, Loss_classify: 1.0491, Loss_bbox: 0.0342
+val Acc: 0.2000, Acc_classify: 0.6100, Acc_bbox: 0.3400
+Now the lr is 0.008100000000000001
+Epoch 80/99
+----------
+train Loss: 0.4746, Loss_classify: 0.9126, Loss_bbox: 0.0365
+train Acc: 0.1950, Acc_classify: 0.6625, Acc_bbox: 0.2687
+val Loss: 0.5677, Loss_classify: 1.1000, Loss_bbox: 0.0355
+val Acc: 0.1500, Acc_classify: 0.5900, Acc_bbox: 0.2700
+Now the lr is 0.008100000000000001
+Epoch 81/99
+----------
+train Loss: 0.4313, Loss_classify: 0.8281, Loss_bbox: 0.0345
+train Acc: 0.2200, Acc_classify: 0.7000, Acc_bbox: 0.3038
+val Loss: 0.6324, Loss_classify: 1.2307, Loss_bbox: 0.0340
+val Acc: 0.1800, Acc_classify: 0.5300, Acc_bbox: 0.3400
+Now the lr is 0.008100000000000001
+Epoch 82/99
+----------
+train Loss: 0.4326, Loss_classify: 0.8299, Loss_bbox: 0.0352
+train Acc: 0.2162, Acc_classify: 0.6913, Acc_bbox: 0.3025
+val Loss: 0.6067, Loss_classify: 1.1784, Loss_bbox: 0.0350
+val Acc: 0.1400, Acc_classify: 0.5400, Acc_bbox: 0.2500
+Now the lr is 0.008100000000000001
+Epoch 83/99
+----------
+train Loss: 0.4248, Loss_classify: 0.8136, Loss_bbox: 0.0360
+train Acc: 0.1938, Acc_classify: 0.7163, Acc_bbox: 0.2700
+val Loss: 0.6377, Loss_classify: 1.2385, Loss_bbox: 0.0368
+val Acc: 0.1900, Acc_classify: 0.5600, Acc_bbox: 0.3000
+Now the lr is 0.008100000000000001
+Epoch 84/99
+----------
+train Loss: 0.5410, Loss_classify: 1.0462, Loss_bbox: 0.0357
+train Acc: 0.1663, Acc_classify: 0.6162, Acc_bbox: 0.2737
+val Loss: 0.5372, Loss_classify: 1.0374, Loss_bbox: 0.0369
+val Acc: 0.2100, Acc_classify: 0.6300, Acc_bbox: 0.3000
+Now the lr is 0.008100000000000001
+Epoch 85/99
+----------
+train Loss: 0.4227, Loss_classify: 0.8117, Loss_bbox: 0.0336
+train Acc: 0.2512, Acc_classify: 0.7200, Acc_bbox: 0.3312
+val Loss: 0.6538, Loss_classify: 1.2697, Loss_bbox: 0.0379
+val Acc: 0.0800, Acc_classify: 0.4800, Acc_bbox: 0.1600
+Now the lr is 0.008100000000000001
+Epoch 86/99
+----------
+train Loss: 0.4498, Loss_classify: 0.8651, Loss_bbox: 0.0345
+train Acc: 0.1888, Acc_classify: 0.6787, Acc_bbox: 0.2675
+val Loss: 0.5568, Loss_classify: 1.0783, Loss_bbox: 0.0352
+val Acc: 0.1900, Acc_classify: 0.6000, Acc_bbox: 0.2900
+Now the lr is 0.008100000000000001
+Epoch 87/99
+----------
+train Loss: 0.5014, Loss_classify: 0.9673, Loss_bbox: 0.0355
+train Acc: 0.1925, Acc_classify: 0.6450, Acc_bbox: 0.2775
+val Loss: 0.5365, Loss_classify: 1.0373, Loss_bbox: 0.0358
+val Acc: 0.1500, Acc_classify: 0.6000, Acc_bbox: 0.2500
+Now the lr is 0.008100000000000001
+Epoch 88/99
+----------
+train Loss: 0.4531, Loss_classify: 0.8711, Loss_bbox: 0.0351
+train Acc: 0.2013, Acc_classify: 0.6850, Acc_bbox: 0.2800
+val Loss: 0.5922, Loss_classify: 1.1509, Loss_bbox: 0.0336
+val Acc: 0.1800, Acc_classify: 0.5700, Acc_bbox: 0.3500
+Now the lr is 0.008100000000000001
+Epoch 89/99
+----------
+train Loss: 0.4136, Loss_classify: 0.7934, Loss_bbox: 0.0338
+train Acc: 0.2213, Acc_classify: 0.7013, Acc_bbox: 0.3100
+val Loss: 0.5767, Loss_classify: 1.1161, Loss_bbox: 0.0372
+val Acc: 0.1500, Acc_classify: 0.5400, Acc_bbox: 0.2400
+Now the lr is 0.008100000000000001
+Epoch 90/99
+----------
+train Loss: 0.4082, Loss_classify: 0.7832, Loss_bbox: 0.0332
+train Acc: 0.2313, Acc_classify: 0.7188, Acc_bbox: 0.3125
+val Loss: 0.6422, Loss_classify: 1.2496, Loss_bbox: 0.0348
+val Acc: 0.1400, Acc_classify: 0.5100, Acc_bbox: 0.2500
+Now the lr is 0.007290000000000001
+Epoch 91/99
+----------
+train Loss: 0.4037, Loss_classify: 0.7735, Loss_bbox: 0.0339
+train Acc: 0.2062, Acc_classify: 0.7200, Acc_bbox: 0.2875
+val Loss: 0.5561, Loss_classify: 1.0756, Loss_bbox: 0.0366
+val Acc: 0.1400, Acc_classify: 0.6000, Acc_bbox: 0.2400
+Now the lr is 0.007290000000000001
+Epoch 92/99
+----------
+train Loss: 0.4066, Loss_classify: 0.7786, Loss_bbox: 0.0346
+train Acc: 0.2125, Acc_classify: 0.7125, Acc_bbox: 0.2963
+val Loss: 0.5514, Loss_classify: 1.0678, Loss_bbox: 0.0351
+val Acc: 0.1700, Acc_classify: 0.6000, Acc_bbox: 0.3000
+Now the lr is 0.007290000000000001
+Epoch 93/99
+----------
+train Loss: 0.4319, Loss_classify: 0.8295, Loss_bbox: 0.0344
+train Acc: 0.2062, Acc_classify: 0.6937, Acc_bbox: 0.2963
+val Loss: 0.5653, Loss_classify: 1.0950, Loss_bbox: 0.0356
+val Acc: 0.1500, Acc_classify: 0.5800, Acc_bbox: 0.2700
+Now the lr is 0.007290000000000001
+Epoch 94/99
+----------
+train Loss: 0.3844, Loss_classify: 0.7357, Loss_bbox: 0.0332
+train Acc: 0.2350, Acc_classify: 0.7375, Acc_bbox: 0.3225
+val Loss: 0.5447, Loss_classify: 1.0541, Loss_bbox: 0.0353
+val Acc: 0.1800, Acc_classify: 0.6000, Acc_bbox: 0.2800
+Now the lr is 0.007290000000000001
+Epoch 95/99
+----------
+train Loss: 0.3665, Loss_classify: 0.6986, Loss_bbox: 0.0344
+train Acc: 0.2225, Acc_classify: 0.7512, Acc_bbox: 0.2988
+val Loss: 0.6142, Loss_classify: 1.1913, Loss_bbox: 0.0371
+val Acc: 0.1300, Acc_classify: 0.5100, Acc_bbox: 0.2300
+Now the lr is 0.007290000000000001
+Epoch 96/99
+----------
+train Loss: 0.4403, Loss_classify: 0.8464, Loss_bbox: 0.0342
+train Acc: 0.1950, Acc_classify: 0.6787, Acc_bbox: 0.3050
+val Loss: 0.6302, Loss_classify: 1.2266, Loss_bbox: 0.0339
+val Acc: 0.2200, Acc_classify: 0.5500, Acc_bbox: 0.3500
+Now the lr is 0.007290000000000001
+Epoch 97/99
+----------
+train Loss: 0.3653, Loss_classify: 0.6957, Loss_bbox: 0.0349
+train Acc: 0.2225, Acc_classify: 0.7500, Acc_bbox: 0.2963
+val Loss: 0.5349, Loss_classify: 1.0328, Loss_bbox: 0.0370
+val Acc: 0.1900, Acc_classify: 0.6200, Acc_bbox: 0.2900
+Now the lr is 0.007290000000000001
+Epoch 98/99
+----------
+train Loss: 0.3940, Loss_classify: 0.7521, Loss_bbox: 0.0360
+train Acc: 0.1963, Acc_classify: 0.7212, Acc_bbox: 0.2775
+val Loss: 0.6912, Loss_classify: 1.3438, Loss_bbox: 0.0385
+val Acc: 0.1100, Acc_classify: 0.4900, Acc_bbox: 0.2500
+Now the lr is 0.007290000000000001
+Epoch 99/99
+----------
+train Loss: 0.3877, Loss_classify: 0.7407, Loss_bbox: 0.0347
+train Acc: 0.2437, Acc_classify: 0.7475, Acc_bbox: 0.3100
+val Loss: 0.5758, Loss_classify: 1.1141, Loss_bbox: 0.0376
+val Acc: 0.1300, Acc_classify: 0.5800, Acc_bbox: 0.2200
+Now the lr is 0.007290000000000001
+Training complete in 136m 4s
+Best val Acc: 0.2200

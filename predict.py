@@ -28,7 +28,14 @@ def read_bbox_file(txt_path):
 if __name__ == '__main__':
 
     PATH = './model.pt'
-    model = AlexNet_model()
+
+    if torch.cuda.is_available():
+        device = torch.device('cuda:0')
+    else:
+        device = torch.device('cpu')
+
+    # model = AlexNet_model().to(device)
+    model = Resnet_model().to(device)
     model.load_state_dict(torch.load(PATH))
     model.eval()        # Set model to evaluate mode
 
@@ -49,9 +56,9 @@ if __name__ == '__main__':
         for phase in ['train', 'val']:
             cnt = 0
             for val in dataloaders_dict[phase]:
-                inputs = val['image']
-                labels = val['label']
-                bbox = val['bbox']
+                inputs = val['image'].to(device)
+                labels = val['label'].to(device)
+                bbox = val['bbox'].to(device)
                 bbox = torch.Tensor.float(bbox)
 
                 M = bbox.size()[0]
@@ -60,9 +67,10 @@ if __name__ == '__main__':
 
                 _, preds = torch.max(output_label, 1)
 
+                preds = preds.cpu()
                 preds_numpy = preds.numpy().reshape(M).astype(int)
 
-                bboxPred_numpy = output_bbox.numpy()
+                bboxPred_numpy = output_bbox.cpu().numpy()
                 bboxPred_numpy = bboxPred_numpy * 127
                 bboxPred_numpy = bboxPred_numpy.reshape(M, 4).astype(int)
                 bboxPred_numpy = np.clip(bboxPred_numpy, 0, 127)

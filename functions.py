@@ -4,7 +4,7 @@ from __future__ import print_function, division
 import torch
 import time
 import copy
-
+from IPython import embed
 
 def IOU(A, B):
     '''
@@ -45,7 +45,7 @@ def batch_IOU_correct(pres_bbox, bbox, thresh=0.5):
 
 
 
-def train_model(model, dataloaders, criterion, optimizer, scheduler, num_epochs=25, loss_ratio=0.5, print_file=None):
+def train_model(model, dataloaders, criterion, optimizer, scheduler, device=None, num_epochs=25, loss_ratio=0.5, print_file=None):
     if print_file != None:
         f = open(print_file, 'w')
     else:
@@ -81,9 +81,9 @@ def train_model(model, dataloaders, criterion, optimizer, scheduler, num_epochs=
 
             # Iterate over data.
             for val in dataloaders[phase]:
-                inputs = val['image']
-                labels = val['label']
-                bbox = val['bbox']
+                inputs = val['image'].to(device)
+                labels = val['label'].to(device)
+                bbox = val['bbox'].to(device)
                 bbox = torch.Tensor.float(bbox)
 
                 # zero the parameter gradients
@@ -114,7 +114,9 @@ def train_model(model, dataloaders, criterion, optimizer, scheduler, num_epochs=
                 tmp_preds = preds == labels.data
                 running_classify_correct += torch.sum(tmp_preds)
                 running_regress_correct += torch.sum(bbox_preds)
-                running_correct += torch.sum(tmp_preds*bbox_preds)
+                # temp = torch.Tensor.byte(tmp_preds)*torch.Tensor.byte(bbox_preds)
+                # temp = torch.Tensor.byte(temp)
+                running_correct += torch.sum(tmp_preds.cpu().float()*bbox_preds.cpu().float())
 
             epoch_loss = running_loss / len(dataloaders[phase].dataset)
             epoch_classify_loss = running_classify_loss / len(dataloaders[phase].dataset)

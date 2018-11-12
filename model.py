@@ -155,5 +155,6 @@ class Resnet_model(nn.Module):
 if __name__ == '__main__':
 
     # net = Vgg16_bn_model()
-    net = AlexNet_model()
-    net = Vgg16_bn_model()
+    # net = AlexNet_model()
+    # net = Vgg16_bn_model()
+    net = Resnet_model()

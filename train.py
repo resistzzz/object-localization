@@ -25,7 +25,7 @@ if __name__ == '__main__':
     # optimizer = torch.optim.Adam(params_to_update, init_lr)
     optimizer = torch.optim.SGD(params_to_update, init_lr)
 
-    transform = Rescale((224, 224))
+    transform = [Rescale((224, 224)), ToTensor()]
     image_datasets = {x: ImageDataset(root_dir, data_use=x, transform=transform) for x in ['train', 'val']}
     dataloaders_dict = {x: DataLoader(image_datasets[x],
                                       batch_size=32, shuffle=True, num_workers=4) for x in ['train', 'val']}

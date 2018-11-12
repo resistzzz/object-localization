@@ -7,6 +7,7 @@ import numpy as np
 from torch.utils.data import Dataset
 import os
 from transform_image import *
+from torchvision import transforms
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -58,7 +59,7 @@ class ImageDataset(Dataset):
         sample = {'image': img, 'label': img_class, 'bbox': bbox}
 
         if self.transform:
-            sample = self.transform(sample)
+            sample = self.data_transform(sample)
 
         return sample
 
@@ -89,8 +90,17 @@ class ImageDataset(Dataset):
         return bbox_array/127.0     # normalize
 
 
+    def data_transform(self, sample):
+        for trans in self.transform:
+            sample = trans(sample)
+        sample['image'] = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])(sample['image'])
+
+        return sample
+
+
+
 if __name__ == '__main__':
-    transform = Rescale((224, 224))
+    transform = [Rescale((224, 224))]
 
     image_datasets = {x: ImageDataset(data_use=x, transform=transform) for x in ['train', 'val']}
     dataloaders_dict = {x: DataLoader(image_datasets[x],

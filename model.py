@@ -33,7 +33,7 @@ class AlexNet_model(nn.Module):
 
 
     def forward(self, x):
-        x = x.view(-1, 3, 224, 224)
+        # x = x.view(-1, 3, 224, 224)
         x = torch.Tensor.float(x)
         x = self.feature(x)
         x = x.view(-1, 9216)
@@ -82,7 +82,7 @@ class Vgg16_bn_model(nn.Module):
 
     def forward(self, x):
 
-        x = x.view(-1, 3, 224, 224)
+        # x = x.view(-1, 3, 224, 224)
         x = torch.Tensor.float(x)
         x = self.feature(x)
         x = x.view(-1, 7*7*512)
@@ -112,37 +112,12 @@ class Resnet_model(nn.Module):
         self.num_featureOut = self.resnet18.fc.out_features
         
         self.classifier = nn.Linear(self.num_featureOut, num_class, bias=True)
-        #self.regressor = nn.Sequential(
-        #    nn.Linear(self.num_featureOut, 1024, bias=True),
-        #    nn.ReLU(inplace=True),
-        #    nn.Dropout(p=0.5),
-        #    nn.Linear(1024, 1024, bias=True),
-        #    nn.ReLU(inplace=True),
-        #    nn.Dropout(p=0.5),
-        #    nn.Linear(1024, num_regress, bias=True)
-        #)
-
-        #self.regressor = nn.Sequential(
-        #    nn.Linear(self.num_featureOut, 4096, bias=True),
-        #    nn.ReLU(inplace=True),
-        #    nn.Dropout(p=0.5),
-        #    nn.Linear(4096, 4096, bias=True),
-        #    nn.ReLU(inplace=True),
-        #    nn.Dropout(p=0.5),
-        #    nn.Linear(4096, 4096, bias=True),
-        #    nn.ReLU(inplace=True),
-        #    nn.Dropout(p=0.5),
-        #    nn.Linear(4096, 4096, bias=True),                                      
-        #    nn.ReLU(inplace=True),          
-        #    nn.Dropout(p=0.5),                                                                  
-        #    nn.Linear(4096, num_regress, bias=True)                                                                                       
-        #)
 
         self.regressor = nn.Linear(self.num_featureOut, num_regress, bias=True)
         
 
     def forward(self, x):
-        x = x.view(-1, 3, 224, 224)
+        # x = x.view(-1, 3, 224, 224)
         x = torch.Tensor.float(x)
         x = self.resnet18(x)
         

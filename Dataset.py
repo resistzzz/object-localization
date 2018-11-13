@@ -15,14 +15,14 @@ warnings.filterwarnings("ignore")
 
 class ImageDataset(Dataset):
 
-    def __init__(self, root_dir='tiny_vid', data_use='train', transform=None):
+    def __init__(self, root_dir='tiny_vid', data_use='train', transform_list=None):
 
         self.subdirs = [subdir for subdir in os.listdir(root_dir) if os.path.isdir(os.path.join(root_dir, subdir))]
         self.subdirs = sorted(self.subdirs)
 
         self.root_dir = root_dir
         self.data_use = data_use
-        self.transform = transform
+        self.transform = transform_list
 
         self.class2idx = {val: idx for idx, val in enumerate(self.subdirs)}
         self.idx2class = {idx: val for idx, val in enumerate(self.subdirs)}
@@ -93,6 +93,7 @@ class ImageDataset(Dataset):
     def data_transform(self, sample):
         for trans in self.transform:
             sample = trans(sample)
+
         sample['image'] = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])(sample['image'])
 
         return sample
@@ -100,9 +101,9 @@ class ImageDataset(Dataset):
 
 
 if __name__ == '__main__':
-    transform = [Rescale((224, 224))]
+    transform = [RandomCrop(output_size=100), Rescale((224, 224)), ToTensor()]
 
-    image_datasets = {x: ImageDataset(data_use=x, transform=transform) for x in ['train', 'val']}
+    image_datasets = {x: ImageDataset(data_use=x, transform_list=transform) for x in ['train', 'val']}
     dataloaders_dict = {x: DataLoader(image_datasets[x],
                                       batch_size=10, shuffle=True, num_workers=4) for x in ['train', 'val']}
 

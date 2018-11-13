@@ -25,8 +25,13 @@ if __name__ == '__main__':
     # optimizer = torch.optim.Adam(params_to_update, init_lr)
     optimizer = torch.optim.SGD(params_to_update, init_lr)
 
-    transform = [Rescale((224, 224)), ToTensor()]
-    image_datasets = {x: ImageDataset(root_dir, data_use=x, transform=transform) for x in ['train', 'val']}
+    transform_list = [
+        RandomCrop(output_size=100),
+        Rescale((224, 224)),
+        ToTensor()
+    ]
+
+    image_datasets = {x: ImageDataset(root_dir, data_use=x, transform_list=transform_list) for x in ['train', 'val']}
     dataloaders_dict = {x: DataLoader(image_datasets[x],
                                       batch_size=32, shuffle=True, num_workers=4) for x in ['train', 'val']}
 
@@ -37,7 +42,7 @@ if __name__ == '__main__':
     print_out_file = './print_output.txt'
 
     model_ft, val_acc_history = train_model(model, dataloaders_dict, criterions, optimizer, scheduler, device=device, num_epochs=100,
-                                            loss_ratio=0.4, print_file=print_out_file)
+                                            loss_ratio=0.5, print_file=print_out_file)
     
 
     PATH = './model.pt'
